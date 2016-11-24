@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/addOne"
+        android:checkable="true"
+        android:title="@string/popmenu_add_one_text"
+        android:icon="@drawable/ic_action_like"/>
+    <item
+        android:id="@+id/addAll"
+        android:title="@string/popmenu_add_all_text"
+        android:icon="@drawable/ic_action_dislike"/>
+</menu>

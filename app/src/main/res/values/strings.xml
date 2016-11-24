@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ejercicio6_Menu</string>
+    <string name="popmenu_add_text">Add</string>
+    <string name="context_like_text">Like</string>
+    <string name="context_dislike_text">Dislike</string>
+    <string name="popmenu_add_one_text">Add one</string>
+    <string name="popmenu_add_all_text">Add all</string>
+</resources>

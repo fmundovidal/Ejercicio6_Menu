@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a5alumno.ejercicio6_menu.MainActivity"
+    android:background="@android:color/white">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar_second"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        tools:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@android:drawable/stat_sys_upload_done"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/img_1"
+        android:layout_marginTop="100dp"/>
+
+    <FrameLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_1"
+        android:id="@+id/linear_layout"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:textSize="40sp"
+            android:id="@+id/context_text"
+            android:gravity="left"
+            android:textColor="@android:color/black"
+            />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_action_like"
+            android:id="@+id/img_like"
+            android:visibility="invisible"
+            android:layout_gravity="right|center_vertical"
+            />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_action_dislike"
+            android:id="@+id/img_dislike"
+            android:visibility="invisible"
+            android:layout_gravity="right|center_vertical" />
+    </FrameLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second Activity"
+        android:id="@+id/context_button"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/linear_layout"
+        android:layout_marginTop="40dp"/>
+
+
+
+</RelativeLayout>
